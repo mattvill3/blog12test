@@ -1,3 +1,3 @@
 class Post < ActiveRecord::Base
-  attr_accessible :context, :name, :title
+  attr_accessible :context, :name, :title, :moreDescription
 end
